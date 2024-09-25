@@ -9,7 +9,7 @@ import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
+import About from "./about/About";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
@@ -58,11 +58,12 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
+           {/*  <Achievement /> */}
             <Blogs />
-            <Talks />
+            <About />
+           {/* <Talks /> 
             <Twitter />
-            <Podcast />
+            <Podcast />*/}
             <Profile />
             <Footer />
             <ScrollToTopButton />

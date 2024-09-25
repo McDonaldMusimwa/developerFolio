@@ -51,6 +51,7 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
+          {/*  
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
@@ -61,6 +62,7 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
+            */}
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
@@ -68,14 +70,16 @@ function Header() {
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#about">About Me</a>
             </li>
           )}
+          {/* 
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>
             </li>
           )}
+            */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
