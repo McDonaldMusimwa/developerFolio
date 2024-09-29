@@ -23,7 +23,7 @@ const greeting = {
   username: "McDonald ",
   title: "Hi all, I'm McD",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A curious Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -46,7 +46,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i am made up off",
-  subTitle: "CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -73,7 +74,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
-  
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -87,8 +88,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "c#",
-      fontAwesomeClassname: "fab fa-cee-sharp"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "npm",
@@ -123,7 +124,6 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    
     {
       schoolName: "Brigham Young University (Idaho)",
       logo: require("./assets/images/byuidaho.png"),
@@ -162,34 +162,52 @@ const techStack = {
 };
 
 // Work experience section
-
+<img
+  data-src=""
+  border="0"
+  alt="Diamond Pinnacle IT Solutions&nbsp;"
+  class=" lazyloaded"
+  src=""
+></img>;
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "DPIT Solutions",
+      companylogo: require("./assets/images/diamondlogo.jpg"),
+      date: "Sept 2024 – Present",
+      desc: "Designed and development of complex software solutions,primarily worked with Java and Node for backend and React js for front end.Converted Figma design documents into working software.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and maintained web applications using Java, Node, JavaScript, and React, ensuring high performance and responsiveness.",
+        "Collaborated closely with the design team to implement and refine software solutions.",
+        "Implemented RESTful APIs to integrate front-end React applications with back-end Java and Node systems.",
+        "Optimized code for scalability, reliability, and maintainability across various platforms.",
+        "Worked in an agile environment, focusing on rapid iterations and deployment of features"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer (Voluntary)",
+      company: "Aparecio Foundation",
+      companylogo: require("./assets/images/apareciologo.png"),
+      date: "Feb 2024 – Aug 2024",
+      desc: "Primarily worked with PHP, WordPress, and MySQL to develop and maintain our website, ensuring a seamless user experience for visitors and donors alike.",
+      descBullets: [
+        "Converted design documents into working websites using WordPress.",
+        "Worked extensively with database solution such as MySQL to manipulate and store data"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Financial Accountant",
+      company: "Forever Living Products",
+      companylogo: require("./assets/images/foreverlogo.jpg"),
       date: "Feb 2024 – Apr 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "A Financial Controller was responsible for managing an organization’s financial operations, including accurate bookkeeping, financial reporting, budgeting, and cost management. They ensured compliance with financial regulations, streamlined processes, and provided strategic insights to enhance profitability and support decision-making across multiple business entities.",
+      descBullets: [
+        "Increased stock reports accuracy by 4% by introducing accurate stock costing and stock controlling systems.",
+        "Successfully managed financial entries for 3 international entities, ensuring accurate bookkeeping and timely submission, consistently meeting deadlines 2-3 days in advance.",
+        "Orchestrated the preparation of year-end financial statements by effectively coordinating a team of 4 bookkeepers, streamlining document sourcing and report compilation processes to ensure accuracy and timeliness."
+      ]
     }
   ]
 };
@@ -206,20 +224,21 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I WORKED WITH TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/invogo.png"),
+      projectName: "InvoGo",
+      projectDesc: "Mobile app invoiving application.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://invogo.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
+    /*
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
@@ -231,6 +250,7 @@ const bigProjects = {
         }
       ]
     }
+      */
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -305,16 +325,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/posts/mcdonaldmusimwa_i-have-been-looking-at-the-current-tech-trajectory-activity-7070359655868190721-AGZ-?utm_source=share&utm_medium=member_desktop",
+      title: "Navigating the Evolving Realm of Technology-Driven Enterpris",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Technology has become an indispensable part of our lives, propelling us to new levels of efficiency and innovation."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.linkedin.com/posts/mcdonaldmusimwa_backend-software-webdevelopment-activity-7040123698959273984-XcB5?utm_source=share&utm_medium=member_desktop",
+      title: "Web apps,Static or Dynamic ?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Web development is an evolving industry deciding which web solution will meet your objectives and revolve around choosing between "
     }
   ],
   display: true // Set false to hide this section, defaults to true
