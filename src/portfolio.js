@@ -175,7 +175,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "DPIT Solutions",
-      companylogo: require("./assets/images/diamondlogo.jpg"),
+      companylogo: require("./assets/images/diamondlogo.png"),
       date: "Sept 2024 – Present",
       desc: "Designed and development of complex software solutions,primarily worked with Java and Node for backend and React js for front end.Converted Figma design documents into working software.",
       descBullets: [
