@@ -129,6 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/byuidaho.png"),
       subHeader: "Bachelor of Science in Software Development",
       duration: "January 2020 - December 2024",
+      degree:"",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Development,Database Admin, Operating Systems, ...",
       descBullets: [
         "Completed three specialized certificates: Web and Computer Programming, Web Development, and Software Development, focusing on foundational and advanced web and software development skills.",
@@ -187,7 +188,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web Developer (Voluntary)",
+      role: "Web Developer (Part Time)",
       company: "Aparecio Foundation",
       companylogo: require("./assets/images/apareciologo.png"),
       date: "Feb 2024 – Aug 2024",
@@ -229,11 +230,22 @@ const bigProjects = {
     {
       image: require("./assets/images/invogo.png"),
       projectName: "InvoGo",
-      projectDesc: "Mobile app invoiving application.",
+      projectDesc: `This website showcases a mobile invoicing application I built in late December 2024. Having grown comfortable with React, I sought to expand my understanding of the broader ecosystem surrounding it, which led me to learn React Native.
+
+The inspiration for this app stemmed from a personal experience: after hiring several handymen to complete various tasks around my home, I noticed a recurring issue—they often lacked proper invoicing systems. This observation sparked the idea of creating a simple, straightforward mobile invoicing application. The app allows users to enter details quickly and share invoices with clients via platforms like WhatsApp, eliminating unnecessary complexity.
+
+The app was built using React Native for the frontend, Firebase for the backend, and Firebase Auth for authentication. The development process was challenging yet highly educational. I gained hands-on experience with implementing common data structures, such as using a stack for navigation in mobile applications. Additionally, exploring the differences in component styling between React for web and React Native was both intriguing and insightful.
+
+This project was not only a significant learning journey but also an opportunity to develop a practical solution to a real-world problem.
+      `,
       footerLink: [
         {
           name: "Visit Website",
           url: "https://invogo.netlify.app/"
+        },
+        {
+          name:"Visit Code Base",
+          url	:"https://github.com/McDonaldMusimwa/InvoiceToGo.git"
         }
         //  you can add extra buttons here.
       ]
