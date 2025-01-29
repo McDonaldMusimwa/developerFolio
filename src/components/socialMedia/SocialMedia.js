@@ -2,6 +2,7 @@ import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
 
+
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
@@ -32,14 +33,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.youtube ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href={`mailto:${socialMediaLinks.youtube}`}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+        <i className="fab fa-youtube-square"></i>
           <span></span>
         </a>
       ) : null}

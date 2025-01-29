@@ -23,10 +23,10 @@ const greeting = {
   username: "McDonald ",
   title: "Hi all, I'm McD",
   subTitle: emoji(
-    "A curious Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A curious Full Stack Software Developer 🚀 having an experience of building Web with DotNet / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.I also enjoy documenting my software development journey through my Youtube channel @mcdthedev"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1cjvzTQkc-1YBu7E6Z4gzLZ60EIJRR4Q2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,8 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/McDonaldMusimwa",
   linkedin: "https://www.linkedin.com/in/mcdonaldmusimwa",
-  gmail: "mcdonald.musimwa74@gmail.com",
+  gmail: "https://www.youtube.com/@mcdthedev",
+  youtube:"https://www.youtube.com/@mcdthedev",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -88,8 +89,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "dotnet",
+      fontAwesomeClassname: "fab fa-dotnet"
     },
     {
       skillName: "npm",
