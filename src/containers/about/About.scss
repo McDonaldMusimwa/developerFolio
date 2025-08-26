@@ -15,6 +15,9 @@
 .subTitle {
   color: $subTitle;
 }
+.awscommunity{
+  width: 50%;
+}
 
 @media (max-width: 768px) {
   .talk-header-title {
@@ -25,5 +28,8 @@
     font-size: 16px;
     line-height: normal;
     text-align: center;
+  }
+  .awscommunity{
+    width: 100%;
   }
 }

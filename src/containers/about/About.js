@@ -4,6 +4,7 @@ import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import awscommunity from "../../assets/images/awscommunity.jpeg"
 
 export default function About() {
   const {isDark} = useContext(StyleContext);
@@ -61,10 +62,10 @@ export default function About() {
               <hr />
             </h3>
             <p className="p-1 text-black">
-              Since beginning my journey in software development, I have spent a lot of time learning solo and collaborating with other students in the USA. After the lockdown, I discovered developer meetups around Cape Town. I've taken an interest in different communities and building social coding networks. For example, during my learning of <strong>C# </strong>and <strong>.NET</strong>, I joined the <strong>CPTMSDUG </strong>group, where we share new features and advancements in C# and other microsoft products. I am also a big fan of <strong>React </strong>and i foresee a time where I contribute to the local React group.
+              Since beginning my journey in software development, I have spent a lot of time learning solo and collaborating with other students in the USA. After the lockdown, I discovered developer meetups around Cape Town. I've taken an interest in different communities and building social coding networks. For example, during my learning of <strong>AWS </strong>, I joined the <strong>AWS Capetown Community </strong>group, where we share new features and advancements in AWS and other AWS products. I am also a big fan of <strong>React </strong>and i foresee a time where I contribute to the local React group.
 
             </p>
-
+<img src={awscommunity} alt="AWS community center" className="awscommunity"/>
           </div>
         
           

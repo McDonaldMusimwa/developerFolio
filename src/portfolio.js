@@ -23,7 +23,7 @@ const greeting = {
   username: "McDonald ",
   title: "Hi all, I'm McD",
   subTitle: emoji(
-    "A curious Full Stack Software Developer 🚀 having an experience of building Web with DotNet / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.I also enjoy documenting my software development journey through my Youtube channel @mcdthedev"
+    "A curious Tech ambassador 🚀 that has experience in building Web solutions using / TypeScript / Reactjs / Nodejs and some other cool libraries and frameworks.I also enjoy documenting my software development journey through my Youtube channel @mcdthedev"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1cjvzTQkc-1YBu7E6Z4gzLZ60EIJRR4Q2/view?usp=sharing", // Set to empty to hide the button
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/McDonaldMusimwa",
   linkedin: "https://www.linkedin.com/in/mcdonaldmusimwa",
   gmail: "https://www.youtube.com/@mcdthedev",
-  youtube:"https://www.youtube.com/@mcdthedev",
+  youtube: "https://www.youtube.com/@mcdthedev",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -47,8 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i am made up off",
-  subTitle:
-    "CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CURIOUS TECH ENTHUSIASTE WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -88,10 +87,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "dotnet",
-      fontAwesomeClassname: "fab fa-dotnet"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -130,7 +126,7 @@ const educationInfo = {
       logo: require("./assets/images/byuidaho.png"),
       subHeader: "Bachelor of Science in Software Development",
       duration: "January 2020 - December 2024",
-      degree:"",
+      degree: "",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Development,Database Admin, Operating Systems, ...",
       descBullets: [
         "Completed three specialized certificates: Web and Computer Programming, Web Development, and Software Development, focusing on foundational and advanced web and software development skills.",
@@ -175,10 +171,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "SkyIT Services",
+      companylogo: require("./assets/images/skyit.png"),
+      date: "May 2025 - Present",
+      desc: "Built and maintained in-house software solutions using Next.js, React, and Prisma ORM with a PostgreSQL backend, hosted on AWS. Utilized AWS services for database management, scalable data storage, and authentication.",
+      descBullets: [
+        "Engineered and deployed a full-stack application on AWS EC2, leveraging RDS for database management and S3 for scalable object storage to handle large-scale file and data needs.",
+        "Implemented secure user authentication and authorization using AWS Cognito User Pools**, ensuring data protection and a seamless login experience.",
+        "Conducted rigorous code reviews on pull requests to ensure a high standard of code quality and maintainability.",
+        "Collaborated closely with cross-functional teams in sprint meetings to align on project goals and translate complex requirements into production-ready features."
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "DPIT Solutions",
       companylogo: require("./assets/images/diamondlogo.png"),
-      date: "Sept 2024 – Present",
+      date: "Sept 2024 – May 2025",
       desc: "Designed and development of complex software solutions,primarily worked with Java and Node for backend and React js for front end.Converted Figma design documents into working software.",
       descBullets: [
         "Developed and maintained web applications using Java, Node, JavaScript, and React, ensuring high performance and responsiveness.",
@@ -198,7 +207,7 @@ const workExperiences = {
         "Converted design documents into working websites using WordPress.",
         "Worked extensively with database solution such as MySQL to manipulate and store data"
       ]
-    },
+    } /*,
     {
       role: "Financial Accountant",
       company: "Forever Living Products",
@@ -210,7 +219,7 @@ const workExperiences = {
         "Successfully managed financial entries for 3 international entities, ensuring accurate bookkeeping and timely submission, consistently meeting deadlines 2-3 days in advance.",
         "Orchestrated the preparation of year-end financial statements by effectively coordinating a team of 4 bookkeepers, streamlining document sourcing and report compilation processes to ensure accuracy and timeliness."
       ]
-    }
+    }*/
   ]
 };
 
@@ -225,45 +234,49 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I WORKED WITH TO CREATE THEIR TECH",
+  title: "Some of my  Projects",
+  subtitle: "Some projects that i have worked on",
   projects: [
+    {
+      image: require("./assets/images/practicesolution.png"),
+      projectName: "Practice Solution",
+      projectDesc: `I have been working on Practice Solutions, a project designed to help learners test and strengthen their AWS knowledge through interactive practice. The application is built with React, integrates AWS Cognito for authentication, and leverages serverless services like Lambda, API Gateway, and DynamoDB to deliver secure, scalable functionality.`,
+      techStack: [
+        "React",
+        "Typescript",
+        "Api-Gatway",
+        "Lambda",
+        "DynamoDb",
+        "Aws Cognito"
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Visit Code Base",
+          url: "https://github.com/McDonaldMusimwa/practiceaws.git"
+        }
+      ]
+    },
     {
       image: require("./assets/images/invogo.png"),
       projectName: "InvoGo",
-      projectDesc: `This website showcases a mobile invoicing application I built in late December 2024. Having grown comfortable with React, I sought to expand my understanding of the broader ecosystem surrounding it, which led me to learn React Native.
-
-The inspiration for this app stemmed from a personal experience: after hiring several handymen to complete various tasks around my home, I noticed a recurring issue—they often lacked proper invoicing systems. This observation sparked the idea of creating a simple, straightforward mobile invoicing application. The app allows users to enter details quickly and share invoices with clients via platforms like WhatsApp, eliminating unnecessary complexity.
-
-The app was built using React Native for the frontend, Firebase for the backend, and Firebase Auth for authentication. The development process was challenging yet highly educational. I gained hands-on experience with implementing common data structures, such as using a stack for navigation in mobile applications. Additionally, exploring the differences in component styling between React for web and React Native was both intriguing and insightful.
-
-This project was not only a significant learning journey but also an opportunity to develop a practical solution to a real-world problem.
-      `,
+      projectDesc: `This website showcases a mobile invoicing app I built with React Native and Firebase. Inspired by handymen lacking proper invoicing, it enables quick invoice creation and sharing via WhatsApp. The project strengthened my skills in mobile navigation, data structures, authentication, and styling differences between web and mobile development. `,
+      techStack: ["Typescript", "React Native", "Firebase"],
       footerLink: [
         {
           name: "Visit Website",
           url: "https://invogo.netlify.app/"
         },
         {
-          name:"Visit Code Base",
-          url	:"https://github.com/McDonaldMusimwa/InvoiceToGo.git"
+          name: "Visit Code Base",
+          url: "https://github.com/McDonaldMusimwa/InvoiceToGo.git"
         }
         //  you can add extra buttons here.
       ]
-    },
-    /*
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
-      */
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -277,54 +290,21 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+   {
+  title: "AWS Solutions Architect",
+  subtitle:
+    "Achieved AWS Certified Solutions Architect – Associate, demonstrating skills in designing and deploying scalable, secure, and cost-effective applications on AWS.",
+  image: require("./assets/images/awssaa.png"),
+  imageAlt: "AWS Solutions Architect Logo",
+  footerLink: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      name: "Certification",
+      url: "https://www.credly.com/badges/0b853cd1-9da3-4ea5-8e70-2e74f8c116aa/linked_in"
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+  ]
+}
+,
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -399,7 +379,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+27-67 1033055",
-  email_address: "mcdonald.musimwa74@gmail.com"
+  email_address: "musimwamcdonald@gmail.com"
 };
 
 // Twitter Section
