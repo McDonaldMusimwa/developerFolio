@@ -1,0 +1,64 @@
+{
+  "name": "McDonald Musimwa",
+  "contact": {
+    "phone": "+27 67-103-3055",
+    "email": "musimwamcdonald@gmail.com",
+    "linkedin": "LinkedIn Profile"
+  },
+  "profile": "AWS Solutions Architect Certified Software Developer with 1+ year of experience designing and deploying scalable, secure cloud-native applications. Skilled in DevOps practices, infrastructure as code, and CI/CD pipelines. Adept at working in agile teams and leveraging services like AWS Lambda, DynamoDB, and EC2 to build efficient, production-ready solutions. Committed to continuous learning and driving innovation through modern cloud technologies.",
+  "professional_skills": [
+    "AWS Solution Architect certified",
+    "Built servers using AWS, importing volumes, launching EC2, creating Security groups, Auto-scaling, Load balancers (ELBs) using Cloud formation templates & AMIs using Infrastructure as a Service (IaaS).",
+    "Designed, built, and deployed applications utilizing AWS stack (EC2, S3), focusing on high-availability, fault tolerance, and auto-scaling.",
+    "Designing cloud security VPC, Network Security, VPC peering, VPN, MFA, and private disk encryptions."
+  ],
+  "experience": [
+    {
+      "title": "Software Developer Internship",
+      "company": "Sky It Services",
+      "location": "Alberta, Canada",
+      "type": "Remote",
+      "start_date": "March 2025",
+      "end_date": "Current",
+      "achievements": [
+        "Led the development and enhancement of features for an internal web application, improving functionality and user experience.",
+        "Built and maintained in-house software solutions using Next.js, React, and Prisma ORM, backed by PostgreSQL and deployed on Microsoft Azure.",
+        "Performed thorough code reviews to ensure quality, maintainability, and adherence to best practices.",
+        "Collaborated with cross-functional teams in Agile sprints, participating in planning and daily stand-ups via Google Meet.",
+        "Translated complex requirements into robust, production-ready features aligned with detailed design specifications."
+      ]
+    },
+    {
+      "title": "Software Developer (Internship)",
+      "company": "DPIT Solutions",
+      "location": "Pretoria, South Africa",
+      "start_date": "June 2024",
+      "end_date": "Present",
+      "achievements": [
+        "Assisted the design and development of scalable web applications, resulting in a 5% increase in sales during initial market entry leveraging Node.js, MongoDB, React.js, and Tailwind CSS.",
+        "Increased platform scalability and reliability by refactoring and maintaining code, reducing technical debt by 10%.",
+        "Enhanced team efficiency by 5% through active participation in agile sprint planning and iterative development.",
+        "Implemented a robust CI/CD pipeline featuring pull requests, code reviews, load/stress testing, and comprehensive unit/integration/e2e testing."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor’s Degree in Software Development",
+    "institution": "Brigham Young University-Idaho",
+    "location": "Rexburg, Idaho, USA",
+    "start_date": "January 2021",
+    "end_date": "December 2024",
+    "gpa": "3.7",
+    "highlights": [
+      "Object-Oriented Design: Proficient in programming with C# and Java, emphasizing robust, scalable solutions.",
+      "Algorithm Development: Strong understanding of data structures, algorithms, and computational complexity.",
+      "Team Collaboration: Experienced in contributing to multidisciplinary projects, enhancing both technical outcomes and interpersonal communication skills."
+    ]
+  },
+  "technical_skills": {
+    "languages": ["JavaScript", "Python", "SQL", "HTML", "CSS"],
+    "frameworks_libraries": ["React", "Node.js", "Next.js", "Express.js", "Jest"],
+    "tools_technologies": ["MySQL", "Postgres", "MongoDB", "Git", "Tailwind CSS", "VS Code", "Intel"],
+    "development_practices": ["Agile methodologies", "RESTful API design", "Continuous Integration/Deployment (CI/CD)"]
+  }
+}

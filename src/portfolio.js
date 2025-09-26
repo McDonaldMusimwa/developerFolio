@@ -252,7 +252,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://staging.d385k1fvsqio60.amplifyapp.com/"
         },
         {
           name: "Visit Code Base",
