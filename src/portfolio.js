@@ -268,7 +268,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://invogo.netlify.app/"
+          url: "https://main.d2m7mhv4scf0qf.amplifyapp.com/"
         },
         {
           name: "Visit Code Base",
