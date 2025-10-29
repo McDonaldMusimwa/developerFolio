@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -317,6 +317,12 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://medium.com/@mcdonald.musimwa74/starting-a-node-js-server-with-typescript-613b3abd7aee",
+      title: "Starting a Node Server with Typescript",
+      description:
+        "Ditch Javascript server and get started with a Typescript Server with this guide on"
+    },
     {
       url: "https://www.linkedin.com/posts/mcdonaldmusimwa_i-have-been-looking-at-the-current-tech-trajectory-activity-7070359655868190721-AGZ-?utm_source=share&utm_medium=member_desktop",
       title: "Navigating the Evolving Realm of Technology-Driven Enterpris",

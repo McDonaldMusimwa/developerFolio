@@ -8,12 +8,15 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import developerActivity from "../../assets/images/developerwave.png"
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
+
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -57,7 +60,8 @@ export default function Greeting() {
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={developerActivity}
+                style={{borderRadius: '10px'}}
               ></img>
             )}
           </div>
