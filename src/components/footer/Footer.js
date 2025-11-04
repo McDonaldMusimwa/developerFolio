@@ -10,7 +10,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("© 2024 by McDonald Musimwa All rights reserved")}
+          {emoji("© 2025 by McDonald Musimwa All rights reserved")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
          Improvise,Adapt,Overcome
