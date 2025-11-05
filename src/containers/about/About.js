@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./About.scss";
-import TalkCard from "../../components/talkCard/TalkCard";
+//import TalkCard from "../../components/talkCard/TalkCard";
 import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";

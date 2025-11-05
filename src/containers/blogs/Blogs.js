@@ -10,6 +10,7 @@ export default function Blogs() {
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
   }
+  const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
   function extractTextContent(html) {
     return typeof html === "string"
@@ -46,6 +47,10 @@ export default function Blogs() {
   if (!blogSection.display) {
     return null;
   }
+
+
+  console.log(mediumBlogs)
+  
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
@@ -72,7 +77,8 @@ export default function Blogs() {
                         url: blog.url,
                         image: blog.image,
                         title: blog.title,
-                        description: blog.description
+                        description: blog.description,
+                         date:`${blog.datepublished.getDate()} ${month[blog.datepublished.getMonth()-1]} ${blog.datepublished.getFullYear()}`
                       }}
                     />
                   );
@@ -85,7 +91,8 @@ export default function Blogs() {
                       blog={{
                         url: blog.link,
                         title: blog.title,
-                        description: extractTextContent(blog.content)
+                        description: extractTextContent(blog.content),
+                        date:blog.datepublished
                       }}
                     />
                   );

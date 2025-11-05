@@ -290,21 +290,21 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-   {
-  title: "AWS Solutions Architect",
-  subtitle:
-    "Achieved AWS Certified Solutions Architect – Associate, demonstrating skills in designing and deploying scalable, secure, and cost-effective applications on AWS.",
-  image: require("./assets/images/awssaa.png"),
-  imageAlt: "AWS Solutions Architect Logo",
-  footerLink: [
     {
-      name: "Certification",
-      url: "https://www.credly.com/badges/0b853cd1-9da3-4ea5-8e70-2e74f8c116aa/linked_in"
-    },
-  ]
-}
-,
-    
+      title: "AWS Solutions Architect",
+      subtitle:
+        "Achieved AWS Certified Solutions Architect – Associate, demonstrating skills in designing and deploying scalable, secure, and cost-effective applications on AWS.",
+      image: require("./assets/images/awssaa.png"),
+      imageAlt: "AWS Solutions Architect Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/0b853cd1-9da3-4ea5-8e70-2e74f8c116aa/linked_in"
+        },
+      ]
+    }
+    ,
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -321,19 +321,26 @@ const blogSection = {
       url: "https://medium.com/@mcdonald.musimwa74/starting-a-node-js-server-with-typescript-613b3abd7aee",
       title: "Starting a Node Server with Typescript",
       description:
-        "Ditch Javascript server and get started with a Typescript Server with this guide on"
+        "Ditch Javascript server and get started with a Typescript Server with this guide .",
+      datepublished: new Date(2025, 10, 29)
     },
+    { url: "https://medium.com/@mcdonald.musimwa74/java-vs-javascript-event-loop-meets-multi-threading-ae7bf63c3789", 
+      title: "Java vs. JavaScript: Event Loop Meets Multi-Threading", 
+      description: "Understand what makes javascript a unique piece of technology when compared to Java .", 
+      datepublished: new Date(2024, 10, 30) },
     {
       url: "https://www.linkedin.com/posts/mcdonaldmusimwa_i-have-been-looking-at-the-current-tech-trajectory-activity-7070359655868190721-AGZ-?utm_source=share&utm_medium=member_desktop",
       title: "Navigating the Evolving Realm of Technology-Driven Enterpris",
       description:
-        "Technology has become an indispensable part of our lives, propelling us to new levels of efficiency and innovation."
+        "Technology has become an indispensable part of our lives, propelling us to new levels of efficiency .",
+      datepublished: new Date(2023, 10, 10)
     },
     {
       url: "https://www.linkedin.com/posts/mcdonaldmusimwa_backend-software-webdevelopment-activity-7040123698959273984-XcB5?utm_source=share&utm_medium=member_desktop",
       title: "Web apps,Static or Dynamic ?",
       description:
-        "Web development is an evolving industry deciding which web solution will meet your objectives and revolve around choosing between "
+        "Web development is an evolving industry deciding which web solution will meet your objectives . ",
+      datepublished: new Date(2023, 9, 23)
     }
   ],
   display: true // Set false to hide this section, defaults to true
