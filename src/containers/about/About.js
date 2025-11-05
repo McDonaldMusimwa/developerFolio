@@ -1,21 +1,25 @@
-import React, {useContext} from "react";
+import React, { useContext, useState } from "react";
 import "./About.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
-import {talkSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { talkSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import awscommunity from "../../assets/images/awscommunity.jpeg"
-
+import profilePic from "../../assets/images/profilepic.jpeg"
 export default function About() {
-  const {isDark} = useContext(StyleContext);
+  const [isProfileVisible, setProfileVisibility] = useState(false)
+  const { isDark } = useContext(StyleContext);
   if (!talkSection.display) {
     return null;
+  }
+  function profilePicVisibilityHandler() {
+    setProfileVisibility(!isProfileVisible)
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="about">
         <div className="talk-header">
-        <h3><strong>About Me</strong></h3>
+          <h3><strong>About Me</strong></h3>
           <p
             className={
               isDark
@@ -26,7 +30,7 @@ export default function About() {
             Get to know me deeper
           </p>
           <div className="">
-        
+
             <hr />
             <p className="p-1 text-left p-4 text-black">
               Hi there, <strong>McDonald</strong> here. My journey into software
@@ -55,7 +59,7 @@ export default function About() {
               diverse programmer I am today.
             </p>
           </div>
-          
+
           <div className="md:w-full p-4  bg-white rounded-lg w-1/2">
             <h3 className="text-center">
               <strong>Community</strong>
@@ -65,19 +69,41 @@ export default function About() {
               Since beginning my journey in software development, I have spent a lot of time learning solo and collaborating with other students in the USA. After the lockdown, I discovered developer meetups around Cape Town. I've taken an interest in different communities and building social coding networks. For example, during my learning of <strong>AWS </strong>, I joined the <strong>AWS Capetown Community </strong>group, where we share new features and advancements in AWS and other AWS products. I am also a big fan of <strong>React </strong>and i foresee a time where I contribute to the local React group.
 
             </p>
-<img src={awscommunity} alt="AWS community center" className="awscommunity"/>
+            <div className="aboutme-img-area">
+
+              <div className="profile-img-container"> <img
+                src={isProfileVisible ? profilePic : awscommunity}
+                alt="AWS community center"
+
+                className="awscommunityimg" /></div>
+
+
+
+
+              <div className="flex flex-col gap-4 p-4 rounded-2xl border border-gray-200 shadow-sm bg-white max-w-sm m-2">
+                <h2>{isProfileVisible ? "Hide face" : "Show face"}</h2>
+<div className="toggle-container">
+                <label className="switch">
+                  <input onClick={profilePicVisibilityHandler} type="checkbox" />
+                  <span className="slider round"></span>
+                </label>
+                </div>
+              </div>
+
+
+            </div>
           </div>
-        
-          
-
-        </div>
-
-
 
 
 
         </div>
-     
+
+
+
+
+
+      </div>
+
     </Fade>
   );
 }
