@@ -5,7 +5,7 @@ import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import awscommunity from "../../assets/images/awscommunity.jpeg"
-import profilePic from "../../assets/images/profilepic.jpeg"
+import profilePic from "../../assets/images/profilepicture.jpeg"
 export default function About() {
   const [isProfileVisible, setProfileVisibility] = useState(false)
   const { isDark } = useContext(StyleContext);
