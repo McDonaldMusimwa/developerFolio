@@ -237,6 +237,30 @@ const bigProjects = {
   title: "Some of my  Projects",
   subtitle: "Some projects that i have worked on",
   projects: [
+     {
+      image: require("./assets/images/finace.png"),
+      projectName: "Finace",
+      projectDesc: `Finace is a bank statement reader in its simpliest form.Designed to help individuals keep track of 
+      their expenses and income by simply uploading their bank statements in PDF format. The application then extracts relevant data from the statements and categorizes transactions to provide users with a clear overview of their financial activities.`,
+      techStack: [
+        "React",
+        "Typescript",
+        "Tanstack Query",
+        "Node Server",
+        "PostgreSQL",
+        "Clerk Auth"
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://main.d3majrchxii62n.amplifyapp.com/"
+        },
+        {
+          name: "Visit Code Base",
+          url: "https://github.com/McDonaldMusimwa/finace.git"
+        }
+      ]
+    },
     {
       image: require("./assets/images/practicesolution.png"),
       projectName: "Practice Solution",
@@ -247,7 +271,8 @@ const bigProjects = {
         "Api-Gatway",
         "Lambda",
         "DynamoDb",
-        "Aws Cognito"
+        "Aws Cognito",
+        "Zustand"
       ],
       footerLink: [
         {

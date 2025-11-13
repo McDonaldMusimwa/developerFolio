@@ -81,6 +81,22 @@
   cursor: pointer;
   transition: 0.2s ease-in;
 }
+.techused {
+  margin-top: 1rem;
+  text-align: left;
+}
+.techused h2 {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+.techused ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.techused ul li {
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .project-subtitle {

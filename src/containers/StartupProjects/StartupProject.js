@@ -65,6 +65,11 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                      <div className="techused">
+                      <h2>Tech used</h2>
+                      <ul>{project.techStack.map((stack)=>{
+                        return(<li key={stack}>{stack}</li>)
+                      })}</ul></div>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
@@ -81,6 +86,7 @@ export default function StartupProject() {
                           );
                         })}
                       </div>
+                    
                     ) : null}
                   </div>
                 </div>
