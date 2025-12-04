@@ -172,9 +172,23 @@ const workExperiences = {
   experience: [
     {
       role: "Software Developer",
+      company: "Transhumanity Ai",
+      companylogo: require("./assets/images/transhumanity_logo.jpeg"),
+      date: "Nov 2025 - Present",
+      desc: "Developing AI-powered traffic analysis platform using React, TypeScript, Node.js, and Python. Building scalable microservices architecture with PostgreSQL databases, Docker containerization, and AWS cloud infrastructure for real-time data processing and visualization.",
+
+      descBullets: [
+        "Engineered interactive data visualization components using React, TypeScript, and Nivo charts, enabling users to analyze traffic patterns through line charts, bar charts, and map-based interfaces.",
+        "Built and maintained RESTful APIs with Node.js and Python agent services, implementing WebSocket connections for real-time AI agent communication and data streaming.",
+        "Deployed multi-service Docker architecture on AWS ECS with RDS PostgreSQL databases, managing separate database instances for Node and Agent services with Alembic and Sequelize migrations.",
+        "Collaborated in agile sprints using GitHub for version control, conducting code reviews on pull requests, and implementing CI/CD pipelines for automated testing and deployment to staging and production environments."
+      ]
+    },
+    {
+      role: "Software Developer",
       company: "SkyIT Services",
       companylogo: require("./assets/images/skyit.png"),
-      date: "May 2025 - Present",
+      date: "May 2025 - Oct 2025",
       desc: "Built and maintained in-house software solutions using Next.js, React, and Prisma ORM with a PostgreSQL backend, hosted on AWS. Utilized AWS services for database management, scalable data storage, and authentication.",
       descBullets: [
         "Engineered and deployed a full-stack application on AWS EC2, leveraging RDS for database management and S3 for scalable object storage to handle large-scale file and data needs.",
@@ -196,7 +210,8 @@ const workExperiences = {
         "Optimized code for scalability, reliability, and maintainability across various platforms.",
         "Worked in an agile environment, focusing on rapid iterations and deployment of features"
       ]
-    },
+    }/*,
+
     {
       role: "Web Developer (Part Time)",
       company: "Aparecio Foundation",
@@ -207,7 +222,7 @@ const workExperiences = {
         "Converted design documents into working websites using WordPress.",
         "Worked extensively with database solution such as MySQL to manipulate and store data"
       ]
-    } /*,
+    } ,
     {
       role: "Financial Accountant",
       company: "Forever Living Products",
@@ -237,7 +252,7 @@ const bigProjects = {
   title: "Some of my  Projects",
   subtitle: "Some projects that i have worked on",
   projects: [
-     {
+    {
       image: require("./assets/images/finace.png"),
       projectName: "Finace",
       projectDesc: `Finace is a bank statement reader in its simpliest form.Designed to help individuals keep track of 
@@ -349,10 +364,12 @@ const blogSection = {
         "Ditch Javascript server and get started with a Typescript Server with this guide .",
       datepublished: new Date(2025, 10, 29)
     },
-    { url: "https://medium.com/@mcdonald.musimwa74/java-vs-javascript-event-loop-meets-multi-threading-ae7bf63c3789", 
-      title: "Java vs. JavaScript: Event Loop Meets Multi-Threading", 
-      description: "Understand what makes javascript a unique piece of technology when compared to Java .", 
-      datepublished: new Date(2024, 10, 30) },
+    {
+      url: "https://medium.com/@mcdonald.musimwa74/java-vs-javascript-event-loop-meets-multi-threading-ae7bf63c3789",
+      title: "Java vs. JavaScript: Event Loop Meets Multi-Threading",
+      description: "Understand what makes javascript a unique piece of technology when compared to Java .",
+      datepublished: new Date(2024, 10, 30)
+    },
     {
       url: "https://www.linkedin.com/posts/mcdonaldmusimwa_i-have-been-looking-at-the-current-tech-trajectory-activity-7070359655868190721-AGZ-?utm_source=share&utm_medium=member_desktop",
       title: "Navigating the Evolving Realm of Technology-Driven Enterpris",
